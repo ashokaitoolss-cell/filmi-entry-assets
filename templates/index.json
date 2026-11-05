@@ -1,0 +1,8 @@
+{
+  "scenes": [
+    { "id": "smoke-walk", "template": "templates/smoke-walk/template.json" },
+    { "title": "The heroine entry", "lead": "the", "name": "Heroine Entry", "comingSoon": true, "image": "ui/soon1.jpg" },
+    { "title": "The slow turn", "lead": "the", "name": "Slow Turn", "comingSoon": true, "image": "ui/soon2.jpg" },
+    { "title": "The return", "lead": "the", "name": "Return", "comingSoon": true, "image": "ui/soon3.jpg" }
+  ]
+}
