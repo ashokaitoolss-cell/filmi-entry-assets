@@ -1,0 +1,26 @@
+{
+  "id": "smoke-walk",
+  "title": "The Smoke Walk",
+  "lead": "the",
+  "name": "Smoke Walk",
+  "meta": "20 seconds, original score",
+  "comingSoon": false,
+  "fps": 24,
+  "width": 720,
+  "height": 1280,
+  "totalFrames": 490,
+  "video": "scene.mp4",
+  "audio": "score.wav",
+  "thumbnail": "thumb.jpg",
+  "hero": "the man in the dark suit and black sunglasses",
+  "keep": "the black sunglasses, the dark suit, the walk, the smoke, the fire bowls, the light, the camera framing and the timing",
+  "segments": [
+    {"id": "open", "startFrame": 0, "endFrame": 95, "mode": "pass"},
+    {"id": "hero1", "startFrame": 96, "endFrame": 214, "mode": "swap", "video": "hero1.mp4", "clipFrames": 144},
+    {"id": "react1", "startFrame": 215, "endFrame": 265, "mode": "pass"},
+    {"id": "hero2", "startFrame": 266, "endFrame": 313, "mode": "swap", "video": "hero2.mp4", "clipFrames": 144},
+    {"id": "react2", "startFrame": 314, "endFrame": 363, "mode": "pass"},
+    {"id": "hero3", "startFrame": 364, "endFrame": 461, "mode": "swap", "video": "hero3.mp4", "clipFrames": 144},
+    {"id": "close", "startFrame": 462, "endFrame": 489, "mode": "pass"}
+  ]
+}
