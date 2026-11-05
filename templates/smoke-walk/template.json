@@ -12,8 +12,8 @@
   "video": "scene.mp4",
   "audio": "score.wav",
   "thumbnail": "thumb.jpg",
-  "hero": "the man in the dark suit and black sunglasses",
-  "keep": "the black sunglasses, the dark suit, the walk, the smoke, the fire bowls, the light, the camera framing and the timing",
+  "hero": "the man in the dark brown suit and black sunglasses",
+  "keep": "his black sunglasses, his dark brown suit and shirt, the way he walks, the smoke, the light, the background exactly as it is in each frame, the camera framing and the timing",
   "segments": [
     {"id": "open", "startFrame": 0, "endFrame": 95, "mode": "pass"},
     {"id": "hero1", "startFrame": 96, "endFrame": 214, "mode": "swap", "video": "hero1.mp4", "clipFrames": 144},
