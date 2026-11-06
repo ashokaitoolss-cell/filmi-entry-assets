@@ -19,6 +19,7 @@ The tool reads them through esm.sh (`https://esm.sh/gh/ashokaitoolss-cell/filmi-
 | `continuity` | The prompt's closing instruction. "One continuous shot, no cuts." for a single shot; for a clip with several shots, say to keep every hard cut on its frame |
 | `endCard` | `startFrame`: where the name card starts. `bandHeight`: a solid black band at the bottom of the 1080x1920 frame that holds the name, in pixels. `fadeFrames`: how long the name takes to fade in. The picture is never darkened, so the face stays clear |
 | `guardMinDb` | Optional. The repaint check's threshold in dB, default 16. A `swap` segment can set its own, which wins. Set it from clean renders: a shot with quiet edges scores about 30 dB when clean, so 16 would let a repaint through |
+| `guardEdge` | Optional, on a `swap` segment: `left` or `right` scores only that edge of the frame, default both. Use it when the set's landmark is on one side and the other edge changes with the person's build |
 | `segments` | Cover frames 0 to totalFrames-1 in order, no gaps. See below |
 
 Segment modes:
