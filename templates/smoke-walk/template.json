@@ -12,15 +12,17 @@
   "video": "scene.mp4",
   "audio": "score.wav",
   "thumbnail": "thumb.jpg",
-  "hero": "the man in the dark brown suit and black sunglasses",
-  "keep": "his black sunglasses, his dark brown suit and shirt, the way he walks, the smoke, the light, the background exactly as it is in each frame, the camera framing and the timing",
+  "hero": "the person in the dark brown suit and black sunglasses",
+  "keep": "their black sunglasses, their dark brown suit and shirt, the way they walk, the smoke, the light, the background exactly as it is in each frame, the camera framing and the timing",
+  "continuity": "One continuous shot, no cuts.",
+  "endCard": { "startFrame": 448, "bandHeight": 470, "fadeFrames": 6 },
   "segments": [
     {"id": "open", "startFrame": 0, "endFrame": 95, "mode": "pass"},
-    {"id": "hero1", "startFrame": 96, "endFrame": 214, "mode": "swap", "video": "hero1.mp4", "clipFrames": 144},
+    {"id": "hero1", "startFrame": 96, "endFrame": 214, "mode": "swap", "video": "hero1.mp4", "clipFrames": 144, "clipStart": 0},
     {"id": "react1", "startFrame": 215, "endFrame": 265, "mode": "pass"},
-    {"id": "hero2", "startFrame": 266, "endFrame": 313, "mode": "swap", "video": "hero2.mp4", "clipFrames": 144},
+    {"id": "hero2", "startFrame": 266, "endFrame": 313, "mode": "swap", "video": "hero2.mp4", "clipFrames": 144, "clipStart": 0},
     {"id": "react2", "startFrame": 314, "endFrame": 363, "mode": "pass"},
-    {"id": "hero3", "startFrame": 364, "endFrame": 461, "mode": "swap", "video": "hero3.mp4", "clipFrames": 144},
-    {"id": "close", "startFrame": 462, "endFrame": 489, "mode": "hold", "holdFrame": 461}
+    {"id": "hero3", "startFrame": 364, "endFrame": 447, "mode": "swap", "video": "hero3.mp4", "clipFrames": 144, "clipStart": 0},
+    {"id": "close", "startFrame": 448, "endFrame": 489, "mode": "hold", "holdClip": "hero2.mp4", "holdClipFrame": 44, "pushTo": 1.04, "pushOriginY": 0.25}
   ]
 }
