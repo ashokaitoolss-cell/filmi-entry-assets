@@ -17,15 +17,15 @@
   "continuity": "Change only that one person, and leave every other person in every shot untouched. Change that person from the very first frame of every shot, so the original face never shows. If this clip has hard cuts, keep each one on exactly the same frame, with no blending between shots. Don't add any cuts.",
   "endCard": { "startFrame": 325, "bandHeight": 470, "fadeFrames": 6 },
   "segments": [
-    { "id": "shot0", "startFrame": 0, "endFrame": 54, "mode": "swap", "video": "shots0-2.mp4", "clipFrames": 144, "clipStart": 0 },
-    { "id": "shot1", "startFrame": 55, "endFrame": 85, "mode": "swap", "video": "shots0-2.mp4", "clipFrames": 144, "clipStart": 55 },
-    { "id": "shot2", "startFrame": 86, "endFrame": 115, "mode": "swap", "video": "shots0-2.mp4", "clipFrames": 144, "clipStart": 86 },
+    { "id": "shot0", "startFrame": 0, "endFrame": 54, "mode": "swap", "video": "shot0.mp4", "clipFrames": 144, "clipStart": 16 },
+    { "id": "shot1", "startFrame": 55, "endFrame": 85, "mode": "swap", "video": "shot1.mp4", "clipFrames": 144, "clipStart": 16 },
+    { "id": "shot2", "startFrame": 86, "endFrame": 115, "mode": "swap", "video": "shot2.mp4", "clipFrames": 144, "clipStart": 16 },
     {"id": "shot3", "startFrame": 116, "endFrame": 142, "mode": "pass"},
-    {"id": "shot4", "startFrame": 143, "endFrame": 173, "mode": "swap", "video": "shot4.mp4", "clipFrames": 144, "clipStart": 0},
+    {"id": "shot4", "startFrame": 143, "endFrame": 173, "mode": "swap", "video": "shot4.mp4", "clipFrames": 144, "clipStart": 16},
     {"id": "shot5", "startFrame": 174, "endFrame": 201, "mode": "pass"},
-    {"id": "shot6", "startFrame": 202, "endFrame": 230, "mode": "swap", "video": "shot6.mp4", "clipFrames": 144, "clipStart": 0},
+    {"id": "shot6", "startFrame": 202, "endFrame": 230, "mode": "swap", "video": "shot6.mp4", "clipFrames": 144, "clipStart": 16},
     {"id": "shot7", "startFrame": 231, "endFrame": 261, "mode": "pass"},
-    {"id": "shot8", "startFrame": 262, "endFrame": 324, "mode": "swap", "video": "hero8.mp4", "clipFrames": 144, "clipStart": 0},
-    {"id": "close", "startFrame": 325, "endFrame": 358, "mode": "hold", "holdClip": "hero8.mp4", "holdClipFrame": 82, "pushTo": 1.04, "pushOriginY": 0.25}
+    {"id": "shot8", "startFrame": 262, "endFrame": 324, "mode": "swap", "video": "shot8.mp4", "clipFrames": 144, "clipStart": 16},
+    {"id": "close", "startFrame": 325, "endFrame": 358, "mode": "hold", "holdClip": "shot8.mp4", "holdClipFrame": 98, "pushTo": 1.04, "pushOriginY": 0.25}
   ]
 }
