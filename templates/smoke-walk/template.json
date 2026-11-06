@@ -23,7 +23,7 @@
     {"id": "react1", "startFrame": 215, "endFrame": 265, "mode": "pass"},
     {"id": "hero2", "startFrame": 266, "endFrame": 313, "mode": "swap", "video": "hero2.mp4", "clipFrames": 144, "clipStart": 0, "guardEdge": "left", "guardMinDb": 22, "keep": "this person's dark brown suit and shirt and their colours exactly, and exactly the same head angle, pose and walk in every frame. The light, the plain bright background, the tall pillar on the left, the camera framing and the timing stay exactly the same in every frame"},
     {"id": "react2", "startFrame": 314, "endFrame": 363, "mode": "pass"},
-    {"id": "hero3", "startFrame": 364, "endFrame": 447, "mode": "swap", "video": "hero3.mp4", "clipFrames": 144, "clipStart": 0, "guardMinDb": 28},
+    {"id": "hero3", "startFrame": 364, "endFrame": 447, "mode": "swap", "video": "hero3.mp4", "clipFrames": 144, "clipStart": 0, "guardMinDb": 28, "keep": "this person's dark brown suit and shirt and their colours exactly, and exactly the same head angle, pose and walk in every frame. The backlit light, the dark pillar on the left, the bright doorway, the camera framing and the timing stay exactly the same in every frame"},
     {"id": "close", "startFrame": 448, "endFrame": 489, "mode": "hold", "holdClip": "hero2.mp4", "holdClipFrame": 44, "pushTo": 1.04, "pushOriginY": 0.25}
   ]
 }
