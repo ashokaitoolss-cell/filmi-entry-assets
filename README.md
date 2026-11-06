@@ -18,11 +18,11 @@ The tool reads them through esm.sh (`https://esm.sh/gh/ashokaitoolss-cell/filmi-
 | `hero`, `keep` | Words for the face-swap prompt. Describe only what is in every swap shot: Omni adds anything named in `keep` that a shot doesn't have |
 | `continuity` | The prompt's closing instruction. "One continuous shot, no cuts." for a single shot; for a clip with several shots, say to keep every hard cut on its frame |
 | `endCard` | `startFrame`: where the name card starts. `bandHeight`: a solid black band at the bottom of the 1080x1920 frame that holds the name, in pixels. `fadeFrames`: how long the name takes to fade in. The picture is never darkened, so the face stays clear |
-| `guardMinDb` | Optional. The repaint check's threshold in dB, default 16 |
+| `guardMinDb` | Optional. The repaint check's threshold in dB, default 16. A `swap` segment can set its own, which wins. Set it from clean renders: a shot with quiet edges scores about 30 dB when clean, so 16 would let a repaint through |
 | `segments` | Cover frames 0 to totalFrames-1 in order, no gaps. See below |
 
 Segment modes:
 
 - `pass`: frames come from `video`.
-- `swap`: frames come from the edited version of clip `video` (`clipFrames` long; 144 = 6.0 s, 192 = 8.0 s). Frame N of the output is clip frame `clipStart` + (N - startFrame). Several segments can share one clip, so several shots cost one edit. Frames no segment uses are mirror padding and are dropped. If the edited clip comes back with a different frame count, read edited frame round(i x edited / clipFrames).
+- `swap`: frames come from the edited version of clip `video` (`clipFrames` long; use 144 = 6.0 s. A 192-frame, 8.0 s clip broke a shot on 1 of 2 renders). Frame N of the output is clip frame `clipStart` + (N - startFrame). Several segments can share one clip, so several shots cost one edit. Frames no segment uses are mirror padding and are dropped. If the edited clip comes back with a different frame count, read edited frame round(i x edited / clipFrames).
 - `hold`: every frame shows frame `holdClipFrame` of the edited clip `holdClip`, with a slow push-in from 1.00 to `pushTo` around the height `pushOriginY` (0 = top). This is the title freeze: pick a frame where the face is big and clearly lit.
