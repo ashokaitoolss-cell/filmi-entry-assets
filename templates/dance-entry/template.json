@@ -13,9 +13,9 @@
   "audio": "score.wav",
   "thumbnail": "thumb.jpg",
   "hero": "the person in the long black coat and black scarf",
-  "remove": "Remove the sunglasses completely: their eyes and eyebrows are visible, exactly as in the photos.",
-  "keep": "their black clothes and scarf and their colours exactly, the way they dance and move, every other person exactly as they are with their own faces and clothes completely untouched, the tent, the walls, the light, the camera framing and the timing",
-  "continuity": "Change only that one person, and leave every other person in every shot untouched. Change that person from the very first frame of every shot, so the original face never shows. If this clip has hard cuts, keep each one on exactly the same frame, with no blending between shots. Don't add any cuts.",
+  "remove": "Take the sunglasses off this one person only: their eyes and eyebrows are visible, exactly as in the photos.",
+  "keep": "this person's black clothes and scarf and their colours exactly, and exactly the same head angle, pose, expression and movement in every frame. Every other person stays completely untouched in every frame: same face, hair, headwear, sunglasses, clothes, position and movement. The tent, the walls, the light, the camera framing and the timing stay exactly the same",
+  "continuity": "Change that one person from the very first frame of every shot, so the original face never shows. If this clip has hard cuts, keep each one on exactly the same frame, with no blending between shots. Don't add any cuts.",
   "endCard": { "startFrame": 325, "bandHeight": 470, "fadeFrames": 6 },
   "segments": [
     { "id": "shot0", "startFrame": 0, "endFrame": 54, "mode": "swap", "video": "shot0.mp4", "clipFrames": 144, "clipStart": 16 },
