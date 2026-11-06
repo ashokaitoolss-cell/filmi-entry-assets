@@ -14,7 +14,7 @@
   "thumbnail": "thumb.jpg",
   "hero": "the person in the long black coat, black scarf and gold-rimmed sunglasses",
   "keep": "their sunglasses, their black clothes and scarf, the way they dance and move, every other person exactly as they are with their own faces and clothes completely untouched, the tent, the walls, the light, the camera framing and the timing",
-  "continuity": "Change only that one person, and leave every other person in every shot untouched. If this clip has hard cuts, keep each one on exactly the same frame, with no blending between shots. Don't add any cuts.",
+  "continuity": "Change only that one person, and leave every other person in every shot untouched. Change that person from the very first frame of every shot, so the original face never shows. If this clip has hard cuts, keep each one on exactly the same frame, with no blending between shots. Don't add any cuts.",
   "endCard": { "startFrame": 325, "bandHeight": 470, "fadeFrames": 6 },
   "segments": [
     { "id": "shot0", "startFrame": 0, "endFrame": 54, "mode": "swap", "video": "shots0-2.mp4", "clipFrames": 144, "clipStart": 0 },
