@@ -56,6 +56,7 @@ Every field is optional. A template without them works as before.
 | `sameSentence` | A sentence added to the prompt after the hair sentence, for a clip with several shots |
 | `clipCuts` | The clip frames where a shared clip has a hard cut. After the edit, the tool finds where each cut landed within 3 frames and repeats the neighbouring frame, so a frame from the wrong shot is never pasted |
 | `key` | `{a, b, shift, lo, hi}`: below the cheeks, inside this larger oval, pixels the edit changed by more than `lo` to `hi` also paste, computed at 180 x 320. Long hair crosses the head oval this way, while small drift on the collar stays the template's |
+| `relight` | On a `swap` segment: `true` matches the edit's broad light to the template's before the paste, so the pasted oval doesn't show when the edit changed the shot's light |
 | `waitSec`, `redoWaitSec` | The waiting screen's countdown for a new render and for a redo, in seconds |
 
 Swap segments that share one `crop` are one edit: one clip, one run. `head` arrays are indexed by clip frame, and `clipStart` is the clip frame where the segment starts, so `pass` segments can sit between them. `pass` frames come from `video`, where frame N is output frame N. A segment without `still` makes no stills, and only the photos go to the edit as references. Omni has returned at most 192 frames (8.0 s), so keep such a clip to 192.
